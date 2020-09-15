@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3306
--- Tempo de geração: 01/09/2020 às 20:00
--- Versão do servidor: 5.7.31
--- Versão do PHP: 7.3.21
+-- Host: 127.0.0.1:3308
+-- Tempo de geração: 15/09/2020 às 22:50
+-- Versão do servidor: 8.0.18
+-- Versão do PHP: 7.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,10 +19,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `alunos`
+-- Banco de dados: `gabriel`
 --
-create database `alunos`;
-use `alunos`;
+
 -- --------------------------------------------------------
 
 --
@@ -35,21 +35,7 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
   `idade` int(11) NOT NULL,
   `endereco` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
-
---
--- Despejando dados para a tabela `pessoas`
---
-
-INSERT INTO `pessoas` (`id`, `nome`, `idade`, `endereco`) VALUES
-(1, 'Ricardo', 40, 'Rua das Flores'),
-(2, 'Paulo', 14, 'Rua das Crisantemos'),
-(3, 'Pedro', 23, 'Rua das Amelias'),
-(4, 'Augusto Cezar', 27, 'Rua das BromÃ©lias'),
-(5, 'Luiza', 19, 'Rua dos Fuscas'),
-(6, 'Rafael Pavan', 25, 'Rua das Lojas'),
-(7, 'Vinicius Almeida', 23, 'Rua das Ãrvores'),
-(8, 'Sabrina Zanella', 31, 'Rua das Plantas');
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
