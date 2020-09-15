@@ -1,4 +1,4 @@
-<?php
+	<?php
 	// Executa o comando SQL
 	$query = mysqli_query($con, $SQL);
 	if($query){
