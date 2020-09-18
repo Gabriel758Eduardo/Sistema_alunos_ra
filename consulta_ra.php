@@ -15,7 +15,7 @@
 				echo $resultado['nome'] . " - " . $resultado['endereco'] . " - " . $resultado['idade'] . "<br>";
 			}	
 		} else {
-			echo "Usuário não existe na base de dados<br>";
+			echo "Usuário não existe na sua base de dados<br>";
 		}
 	} else {
 		echo "Problema de sintaxe SQL";
