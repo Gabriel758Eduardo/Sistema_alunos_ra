@@ -2,9 +2,9 @@
 
 	include('cabecalho_conexao.php');
 	
-	$prontuario = $_POST['RA'];
+	$ra = $_POST['RA'];
 	
-	$SQL = "SELECT * FROM pessoas WHERE id=$prontuario";
+	$SQL = "SELECT * FROM pessoas WHERE id=$ra";
 	
 	$consulta = mysqli_query($con, $SQL);
 	
