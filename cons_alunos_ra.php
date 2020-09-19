@@ -3,8 +3,8 @@
 ?>
 
 	<form action="consulta_ra.php" method="POST">
-		<label>Prontuário:</label>
-		<input type="number" name="prontuario" />
+		<label>RA:</label>
+		<input type="number" name="RA" />
 		<br>
 		
 		<input type="submit" value="Consultar" />

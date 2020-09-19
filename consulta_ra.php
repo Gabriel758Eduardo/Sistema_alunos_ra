@@ -2,7 +2,7 @@
 
 	include('cabecalho_conexao.php');
 	
-	$prontuario = $_POST['prontuario'];
+	$prontuario = $_POST['RA'];
 	
 	$SQL = "SELECT * FROM pessoas WHERE id=$prontuario";
 	
