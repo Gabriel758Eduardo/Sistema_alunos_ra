@@ -1,6 +1,6 @@
 <?php
 
-	$pront = $_GET['pront'];
+	$RA = $_GET['RA'];
 	
 	include('cabecalho_conexao.php');
 	
