@@ -2,7 +2,7 @@
 
 	include('cabecalho_conexao.php');
 	
-	$ra = $_POST['RA'];
+	$RA = $_POST['RA'];
 	
 	$SQL = "SELECT * FROM pessoas WHERE id=$ra";
 	
